@@ -1,7 +1,7 @@
 import re
 
 from .base import RegexFilth
-
+from .. import exceptions
 
 class CredentialFilth(RegexFilth):
     type = 'credential'
